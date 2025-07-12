@@ -1,0 +1,1 @@
+Repositório destinado aos testes práticos das aulas de Design Patterns em Python, disponibilizadas na plataforma Udemy pela Geek University
