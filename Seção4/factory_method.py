@@ -26,7 +26,7 @@ class SecaoProjeto(Secao):
 class SecaoPublicacao(Secao):
 
     def __repr__(self):
-        return ('Seção Publicação')
+        return 'Seção Publicação'
 
 
 class Perfil(metaclass=ABCMeta):

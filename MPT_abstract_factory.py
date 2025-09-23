@@ -53,23 +53,36 @@ class Romance(metaclass=ABCMeta):
 #ProdutoConc
 class MonteiroLobato(Ficcao):
 
+    def __repr__(self):
+        return 'Monteiro Lobato'
+
     def leitura_simples(self):
-        print(f':: Entregando livros do {type(self).__name__} para uma leitura curta...\n')
+        print(f':: Entregando livros do {MonteiroLobato()} para uma leitura curta...\n')
+
 
 class GoncalvesDias(Romance):
 
+    def __repr__(self):
+        return 'Gonçalves Dias'
+
     def leitura_completa(self):
-        print(f':: Entregando livros do {type(self).__name__} para uma leitura longa...\n')
+        print(f':: Entregando livros do {GoncalvesDias()} para uma leitura longa...\n')
 
 class WilliamShakespeare(Ficcao):
 
+    def __repr__(self):
+        return 'William Shakespeare'
+
     def leitura_simples(self):
-        print(f':: Entregando livros do {type(self).__name__} para uma leitura curta...\n')
+        print(f':: Entregando livros do {WilliamShakespeare()} para uma leitura curta...\n')
 
 class CharlesDickens(Romance):
 
+    def __repr__(self):
+        return 'Charles Dickens'
+
     def leitura_completa(self):
-        print(f':: Entregando livros do {type(self).__name__} para uma leitura longa...\n')
+        print(f':: Entregando livros do {CharlesDickens()} para uma leitura longa...\n')
 
 
 
