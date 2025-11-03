@@ -18,7 +18,7 @@ class OrdemCompra(Ordem):
     def executar(self):
         self.acao.comprar()
 
-
+# ComandoConcreto
 class OrdemVenda(Ordem):
 
     def __init__(self, acao):
